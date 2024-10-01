@@ -1,0 +1,244 @@
+Nombre: Registrar la asistencia del empleado
+Objetivo de negocio: Monitorear la puntualidad del personal y asegurar que se registren las entradas y salidas de los empleados.
+Descripción: El sistema debe permitir que el empleado registre su asistencia al llegar y al salir:
+Hora de entrada
+Hora de salida
+Estado (presente, tarde, ausente)
+Flujo funcional:
+El usuario debe dirigirse al menú "Asistencias".
+El sistema mostrará la vista "REGISTRO DE ASISTENCIA".
+El usuario debe escanear su tarjeta o ingresar su identificación.
+El sistema registrará la hora y el estado correspondiente.
+
+Nombre: Consultar historial de asistencias
+Objetivo de negocio: Proporcionar una visión clara del comportamiento del personal respecto a la asistencia.
+Descripción: El sistema debe mostrar el historial de asistencias de los empleados, incluyendo:
+Fecha
+Hora de entrada
+Hora de salida
+Estado (presente, tarde, ausente)
+Flujo funcional:
+El usuario debe dirigirse al menú "Reportes" y seleccionar "Historial de Asistencias".
+El sistema mostrará un filtro de búsqueda para consultar las asistencias por fecha o por empleado.
+
+
+Nombre: Generar reporte mensual de asistencias
+Objetivo de negocio: Facilitar la generación de reportes mensuales para control y evaluación del personal.
+Descripción: El sistema debe generar un reporte mensual con las asistencias de cada empleado, mostrando:
+Días trabajados
+Días de ausencia
+Horas extra
+Flujo funcional:
+El usuario debe dirigirse al menú "Reportes".
+El sistema mostrará la vista "GENERACIÓN DE REPORTES".
+El usuario debe seleccionar el mes y los empleados que quiere incluir en el reporte.
+El sistema generará un archivo PDF con los datos solicitados.
+
+Nombre: Notificar al empleado sobre asistencia tardía
+Objetivo de negocio: Reducir los incidentes de llegadas tarde mediante notificaciones automáticas.
+Descripción: El sistema debe notificar a los empleados cuando registran una asistencia fuera de tiempo.
+Flujo funcional:
+El usuario registra su asistencia después de la hora establecida.
+El sistema detectará el retraso y enviará una notificación al empleado.
+
+Nombre: Registrar permisos de ausencia
+Objetivo de negocio: Controlar las ausencias justificadas del personal para evitar sanciones indebidas.
+Descripción: El sistema debe permitir que los empleados soliciten permisos de ausencia, registrando:
+Motivo
+Fecha de inicio y fin
+Flujo funcional:
+El usuario debe dirigirse al menú "Permisos".
+El sistema mostrará la vista "SOLICITAR PERMISO".
+El usuario llenará el formulario y enviará la solicitud para aprobación.
+
+Nombre: Aprobar permisos de ausencia
+Objetivo de negocio: Automatizar la aprobación de permisos de ausencia por parte del supervisor.
+Descripción: El supervisor debe poder revisar y aprobar o rechazar los permisos solicitados por el personal.
+Flujo funcional:
+El supervisor debe dirigirse al menú "Aprobaciones".
+El sistema mostrará una lista de solicitudes pendientes.
+El supervisor selecciona una solicitud y la aprueba o rechaza.
+
+Nombre: Controlar horas extra
+Objetivo de negocio: Mantener un registro preciso de las horas extras trabajadas para su compensación.
+Descripción: El sistema debe registrar automáticamente las horas extras cuando el empleado sale después de su horario habitual.
+Flujo funcional:
+El usuario registra su salida después del horario regular.
+El sistema calcula las horas extras trabajadas y las almacena en la base de datos.
+
+Nombre: Visualizar resumen semanal de asistencias
+Objetivo de negocio: Proveer una visión rápida del cumplimiento de asistencia en una semana laboral.
+Descripción: El sistema debe mostrar un resumen semanal de asistencias, indicando:
+Días trabajados
+Días de ausencia
+Llegadas tarde
+Flujo funcional:
+El usuario debe dirigirse al menú "Resumen Semanal".
+El sistema mostrará los datos para cada empleado, agrupados por semana.
+
+Nombre: Generar alertas de ausencias no justificadas
+Objetivo de negocio: Detectar y alertar sobre ausencias sin justificación en tiempo real.
+Descripción: El sistema debe enviar alertas automáticas al supervisor cuando un empleado acumule ausencias no justificadas.
+Flujo funcional:
+El sistema monitorea las asistencias diarias.
+Cuando detecta una ausencia sin permiso, genera una alerta.
+
+Nombre: Registrar motivos de retraso
+Objetivo de negocio: Facilitar el análisis de los motivos de tardanza del personal.
+Descripción: El sistema debe permitir registrar los motivos de retraso cuando un empleado llega tarde.
+Flujo funcional:
+El usuario registra su asistencia fuera de horario.
+El sistema muestra una lista de motivos de tardanza para seleccionar uno.
+El usuario selecciona el motivo y lo confirma.
+
+Nombre: Exportar reporte de asistencias a Excel
+Objetivo de negocio: Facilitar la manipulación de datos de asistencia para análisis externo.
+Descripción: El sistema debe permitir exportar los datos de asistencias a un archivo Excel.
+Flujo funcional:
+El usuario debe dirigirse al menú "Reportes".
+El sistema mostrará la vista "EXPORTAR ASISTENCIAS".
+El usuario selecciona el rango de fechas y empleados, y exporta el archivo.
+
+Nombre: Control de vacaciones
+Objetivo de negocio: Registrar y monitorear las vacaciones solicitadas y usadas por cada empleado.
+Descripción: El sistema debe gestionar las solicitudes de vacaciones, mostrando:
+Días disponibles
+Días usados
+Días restantes
+Flujo funcional:
+El usuario debe dirigirse al menú "Vacaciones".
+El sistema muestra el resumen de vacaciones para cada empleado.
+
+Nombre: Registrar llegadas tardías
+Objetivo de negocio: Monitorear las llegadas tardías para implementar políticas de control.
+Descripción: El sistema debe registrar automáticamente la llegada tardía cuando el empleado ingresa después de la hora de entrada estipulada.
+Flujo funcional:
+El empleado registra su asistencia después de la hora límite.
+El sistema marca la asistencia como "tardía" y almacena la hora de ingreso.
+
+Nombre: Generar estadísticas de puntualidad
+Objetivo de negocio: Proveer estadísticas para medir el rendimiento y cumplimiento del personal.
+Descripción: El sistema debe generar estadísticas sobre la puntualidad de los empleados, incluyendo:
+Porcentaje de puntualidad
+Días con llegada tardía
+Flujo funcional:
+El usuario debe dirigirse al menú "Estadísticas".
+El sistema mostrará gráficas con los datos de puntualidad de los empleados.
+
+Nombre: Ver calendario de asistencias
+Objetivo de negocio: Facilitar la visualización de las asistencias en un formato de calendario.
+Descripción: El sistema debe mostrar un calendario donde se visualicen las asistencias de los empleados por día.
+Flujo funcional:
+El usuario debe dirigirse al menú "Calendario".
+El sistema mostrará el calendario con las asistencias de los empleados, destacando días con tardanzas o ausencias.
+
+Nombre: Configurar días feriados
+Objetivo de negocio: Evitar registros de asistencia en días no laborables.
+Descripción: El sistema debe permitir configurar los días feriados para excluirlos del conteo de asistencia.
+Flujo funcional:
+El administrador debe dirigirse al menú "Configuración".
+El sistema mostrará una opción para agregar o editar días feriados.
+
+Nombre: Notificación de ausencia injustificada
+Objetivo de negocio: Informar rápidamente al supervisor sobre ausencias injustificadas para tomar acciones inmediatas.
+Descripción: El sistema debe enviar una notificación al supervisor cuando un empleado no registre su asistencia sin una solicitud de permiso previa.
+Flujo funcional:
+El sistema verifica la asistencia diaria.
+Si detecta una ausencia sin permiso, envía una notificación al supervisor.
+
+Nombre: Validar horas mínimas trabajadas
+Objetivo de negocio: Asegurar que los empleados cumplan con las horas mínimas establecidas por la empresa.
+Descripción: El sistema debe verificar que el empleado haya trabajado al menos el número de horas establecido y generar alertas si no se cumple.
+Flujo funcional:
+El usuario registra su entrada y salida.
+El sistema calcula las horas trabajadas y genera una alerta si no se cumple con el mínimo.
+
+Nombre: Generar reporte de horas extras
+Objetivo de negocio: Controlar las horas extra trabajadas por el personal para una correcta remuneración.
+Descripción: El sistema debe generar un reporte detallado de las horas extras trabajadas por cada empleado.
+Flujo funcional:
+El usuario debe dirigirse al menú "Reportes".
+El sistema generará un reporte en formato PDF con las horas extras trabajadas.
+
+Nombre: Establecer horarios de trabajo
+Objetivo de negocio: Definir los horarios laborales para cada empleado o departamento y controlar el cumplimiento.
+Descripción: El sistema debe permitir configurar los horarios de entrada y salida para cada empleado.
+Flujo funcional:
+El administrador debe dirigirse al menú "Configuración de horarios".
+El sistema mostrará una opción para definir los horarios por empleado o departamento.
+
+Nombre: Resumen de ausencias
+Objetivo de negocio: Facilitar la revisión rápida de ausencias acumuladas en un período determinado.
+Descripción: El sistema debe generar un resumen de ausencias por empleado, indicando:
+Días ausentes
+Motivos de ausencia
+Flujo funcional:
+El usuario debe dirigirse al menú "Resumen de ausencias".
+El sistema mostrará un listado con las ausencias por empleado.
+
+Nombre: Control de tolerancia en la entrada
+Objetivo de negocio: Permitir un margen de tolerancia para registrar la asistencia sin marcar tardanza.
+Descripción: El sistema debe permitir configurar un período de tolerancia antes de registrar una llegada tardía.
+Flujo funcional:
+El usuario registra su entrada dentro del período de tolerancia.
+El sistema no marca la asistencia como tardía si está dentro del margen permitido.
+
+Nombre: Ver detalle de una asistencia
+Objetivo de negocio: Proveer información detallada sobre una asistencia específica para análisis.
+Descripción: El sistema debe mostrar el detalle de una asistencia seleccionada, incluyendo:
+Hora de entrada
+Hora de salida
+Estado (puntual, tarde, ausente)
+Flujo funcional:
+El usuario debe dirigirse al menú "Asistencias".
+El sistema mostrará una lista de asistencias y el usuario seleccionará una para ver su detalle.
+
+Nombre: Gestión de usuarios
+Objetivo de negocio: Administrar los permisos de acceso y roles dentro del sistema.
+Descripción: El sistema debe permitir gestionar los usuarios, asignando roles como administrador, supervisor o empleado.
+Flujo funcional:
+El administrador debe dirigirse al menú "Gestión de usuarios".
+El sistema mostrará una lista de usuarios donde se pueden editar roles y permisos.
+
+Nombre: Restablecer contraseña de empleados
+Objetivo de negocio: Facilitar el restablecimiento de contraseñas de empleados cuando sea necesario.
+Descripción: El sistema debe permitir a los empleados solicitar el restablecimiento de su contraseña.
+Flujo funcional:
+El usuario debe dirigirse al menú "Restablecer contraseña".
+El sistema enviará un correo con un enlace para restablecer la contraseña.
+
+Nombre: Filtrar asistencias por departamento
+Objetivo de negocio: Permitir un análisis segmentado de la asistencia por departamento.
+Descripción: El sistema debe permitir filtrar las asistencias por departamento, mostrando datos específicos de cada uno.
+Flujo funcional:
+El usuario debe dirigirse al menú "Reportes".
+El sistema mostrará la opción de filtrar por departamento y generará el reporte correspondiente.
+
+Nombre: Registrar múltiples entradas y salidas
+Objetivo de negocio: Monitorear las entradas y salidas múltiples de empleados que tengan pausas en su jornada.
+Descripción: El sistema debe permitir registrar varias entradas y salidas durante el día para empleados con pausas.
+Flujo funcional:
+El usuario registra su entrada al iniciar su jornada.
+El sistema permite registrar salidas y entradas adicionales si el empleado toma descansos.
+
+Nombre: Configurar turnos de trabajo
+Objetivo de negocio: Controlar la asistencia en diferentes turnos laborales (mañana, tarde, noche).
+Descripción: El sistema debe permitir configurar turnos de trabajo para los empleados y verificar su asistencia en base a los turnos establecidos.
+Flujo funcional:
+El administrador configura los turnos desde el menú "Turnos de trabajo".
+El sistema verifica la asistencia en función de los turnos configurados.
+
+Nombre: Visualizar asistencia en tiempo real
+Objetivo de negocio: Permitir a los supervisores ver las asistencias en tiempo real para controlar el estado de su personal.
+Descripción: El sistema debe mostrar un tablero donde se visualicen las asistencias en tiempo real de los empleados.
+Flujo funcional:
+El usuario debe dirigirse al menú "Asistencia en tiempo real".
+El sistema mostrará un tablero con los empleados que han registrado su asistencia en el día.
+
+Nombre: Generar gráficos de cumplimiento de asistencia
+Objetivo de negocio: Facilitar el análisis visual del cumplimiento de asistencia por medio de gráficos y estadísticas.
+Descripción: El sistema debe generar gráficos que muestren el cumplimiento de asistencia de cada empleado, departamento o turno.
+Flujo funcional:
+El usuario debe dirigirse al menú "Estadísticas".
+El sistema generará gráficos interactivos mostrando el cumplimiento de asistencia.
+

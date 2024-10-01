@@ -1,0 +1,1667 @@
+[
+    {
+        "requisito": "Nombre: Registrar la asistencia del empleado\nObjetivo de negocio: Monitorear la puntualidad del personal y asegurar que se registren las entradas y salidas de los empleados.\nDescripción: El sistema debe permitir que el empleado registre su asistencia al llegar y al salir:\nHora de entrada\nHora de salida\nEstado (presente, tarde, ausente)\nFlujo funcional:\nEl usuario debe dirigirse al menú \"Asistencias\".\nEl sistema mostrará la vista \"REGISTRO DE ASISTENCIA\".\nEl usuario debe escanear su tarjeta o ingresar su identificación.\nEl sistema registrará la hora y el estado correspondiente.",
+        "acciones": [
+            "escanear",
+            "llegar",
+            "asegurar",
+            "mostrar",
+            "registrir",
+            "salir",
+            "ingresar",
+            "dirigir él",
+            "registrar",
+            "permitir"
+        ],
+        "atributos": [
+            "estado",
+            "identificación",
+            "funcional",
+            "vista",
+            "negocio",
+            "correspondiente",
+            "puntualidad",
+            "tarjeta",
+            "usuario",
+            "personal",
+            "sistema",
+            "nombre",
+            "asistencia",
+            "salida",
+            "ausente",
+            "empleado",
+            "presente",
+            "hora",
+            "entrada",
+            "menú"
+        ],
+        "entidades": [
+            [
+                "Registrar",
+                "MISC"
+            ],
+            [
+                "Monitorear",
+                "PER"
+            ],
+            [
+                "Descripción",
+                "LOC"
+            ],
+            [
+                "Hora de entrada\nHora",
+                "MISC"
+            ],
+            [
+                "Estado",
+                "LOC"
+            ],
+            [
+                "Flujo",
+                "PER"
+            ],
+            [
+                "Asistencias",
+                "LOC"
+            ],
+            [
+                "El sistema mostrará",
+                "MISC"
+            ],
+            [
+                "ASISTENCIA",
+                "MISC"
+            ],
+            [
+                "El usuario",
+                "MISC"
+            ],
+            [
+                "El sistema registrará la hora",
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "requisito": "Consultar historial de asistencias\nObjetivo de negocio: Proporcionar una visión clara del comportamiento del personal respecto a la asistencia.\nDescripción: El sistema debe mostrar el historial de asistencias de los empleados, incluyendo:\nFecha\nHora de entrada\nHora de salida\nEstado (presente, tarde, ausente)\nFlujo funcional:\nEl usuario debe dirigirse al menú \"Reportes\" y seleccionar \"Historial de Asistencias\".\nEl sistema mostrará un filtro de búsqueda para consultar las asistencias por fecha o por empleado.",
+        "acciones": [
+            "seleccionar",
+            "consultar",
+            "proporcionar",
+            "incluir",
+            "mostrar",
+            "dirigir él"
+        ],
+        "atributos": [
+            "funcional",
+            "comportamiento",
+            "negocio",
+            "historial",
+            "filtro",
+            "usuario",
+            "búsqueda",
+            "personal",
+            "sistema",
+            "asistencia",
+            "salida",
+            "ausente",
+            "descripción",
+            "fecha",
+            "empleado",
+            "claro",
+            "presente",
+            "visión",
+            "entrada",
+            "menú",
+            "respecto"
+        ],
+        "entidades": [
+            [
+                "Objetivo de negocio",
+                "MISC"
+            ],
+            [
+                "Descripción",
+                "LOC"
+            ],
+            [
+                "Fecha\nHora",
+                "MISC"
+            ],
+            [
+                "Hora",
+                "PER"
+            ],
+            [
+                "Estado",
+                "LOC"
+            ],
+            [
+                "Flujo",
+                "PER"
+            ],
+            [
+                "Reportes",
+                "PER"
+            ],
+            [
+                "Historial de Asistencias",
+                "LOC"
+            ],
+            [
+                "El sistema mostrará",
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "requisito": "Generar reporte mensual de asistencias\nObjetivo de negocio: Facilitar la generación de reportes mensuales para control y evaluación del personal.\nDescripción: El sistema debe generar un reporte mensual con las asistencias de cada empleado, mostrando:\nDías trabajados\nDías de ausencia\nHoras extra\nFlujo funcional:\nEl usuario debe dirigirse al menú \"Reportes\".\nEl sistema mostrará la vista \"GENERACIÓN DE REPORTES\".\nEl usuario debe seleccionar el mes y los empleados que quiere incluir en el reporte.\nEl sistema generará un archivo PDF con los datos solicitados.",
+        "acciones": [
+            "querer",
+            "seleccionar",
+            "mostrar",
+            "incluir",
+            "generar",
+            "dirigir él",
+            "facilitar"
+        ],
+        "atributos": [
+            "funcional",
+            "vista",
+            "evaluación",
+            "negocio",
+            "ausencia",
+            "trabajado",
+            "generación",
+            "mensual",
+            "usuario",
+            "personal",
+            "report",
+            "mes",
+            "sistema",
+            "solicitado",
+            "dato",
+            "asistencia",
+            "control",
+            "empleado",
+            "extra",
+            "archivo",
+            "reporte",
+            "hora",
+            "menú"
+        ],
+        "entidades": [
+            [
+                "Objetivo de negocio",
+                "MISC"
+            ],
+            [
+                "Descripción: El sistema",
+                "MISC"
+            ],
+            [
+                "Días",
+                "LOC"
+            ],
+            [
+                "Días de ausencia\nHoras",
+                "ORG"
+            ],
+            [
+                "Flujo",
+                "PER"
+            ],
+            [
+                "Reportes",
+                "LOC"
+            ],
+            [
+                "El sistema mostrará",
+                "MISC"
+            ],
+            [
+                "REPORTES",
+                "ORG"
+            ],
+            [
+                "El usuario debe seleccionar el mes y los empleados",
+                "MISC"
+            ],
+            [
+                "El sistema generará",
+                "MISC"
+            ],
+            [
+                "PDF",
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "requisito": "Notificar al empleado sobre asistencia tardía\nObjetivo de negocio: Reducir los incidentes de llegadas tarde mediante notificaciones automáticas.\nDescripción: El sistema debe notificar a los empleados cuando registran una asistencia fuera de tiempo.\nFlujo funcional:\nEl usuario registra su asistencia después de la hora establecida.\nEl sistema detectará el retraso y enviará una notificación al empleado.",
+        "acciones": [
+            "enviar",
+            "tardir",
+            "reducir",
+            "registrar",
+            "notificar",
+            "detectar"
+        ],
+        "atributos": [
+            "funcional",
+            "tiempo",
+            "llegada",
+            "asistencia",
+            "usuario",
+            "hora",
+            "negocio",
+            "notificación",
+            "establecido",
+            "automático",
+            "flujo",
+            "sistema",
+            "retraso",
+            "empleado",
+            "incidente"
+        ],
+        "entidades": [
+            [
+                "asistencia tardía\nObjetivo",
+                "LOC"
+            ],
+            [
+                "Descripción",
+                "LOC"
+            ],
+            [
+                "Flujo",
+                "PER"
+            ],
+            [
+                "El sistema detectará",
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "requisito": "Registrar permisos de ausencia\nObjetivo de negocio: Controlar las ausencias justificadas del personal para evitar sanciones indebidas.\nDescripción: El sistema debe permitir que los empleados soliciten permisos de ausencia, registrando:\nMotivo\nFecha de inicio y fin\nFlujo funcional:\nEl usuario debe dirigirse al menú \"Permisos\".\nEl sistema mostrará la vista \"SOLICITAR PERMISO\".\nEl usuario llenará el formulario y enviará la solicitud para aprobación.",
+        "acciones": [
+            "solicitir",
+            "mostrar",
+            "enviar",
+            "controlar",
+            "dirigir él",
+            "registrar",
+            "permitir",
+            "evitar",
+            "llenar"
+        ],
+        "atributos": [
+            "inicio",
+            "justificado",
+            "funcional",
+            "vista",
+            "negocio",
+            "ausencia",
+            "sanción",
+            "formulario",
+            "usuario",
+            "solicitud",
+            "aprobación",
+            "personal",
+            "motivo",
+            "sistema",
+            "fin",
+            "permiso",
+            "indebido",
+            "empleado",
+            "menú"
+        ],
+        "entidades": [
+            [
+                "Objetivo de negocio: Controlar las ausencias justificadas del personal",
+                "MISC"
+            ],
+            [
+                "Descripción",
+                "LOC"
+            ],
+            [
+                "Motivo\nFecha",
+                "MISC"
+            ],
+            [
+                "Flujo",
+                "PER"
+            ],
+            [
+                "Permisos",
+                "LOC"
+            ],
+            [
+                "El sistema mostrará",
+                "MISC"
+            ],
+            [
+                "El usuario llenará el formulario",
+                "MISC"
+            ],
+            [
+                "enviará",
+                "PER"
+            ]
+        ]
+    },
+    {
+        "requisito": "Aprobar permisos de ausencia\nObjetivo de negocio: Automatizar la aprobación de permisos de ausencia por parte del supervisor.\nDescripción: El supervisor debe poder revisar y aprobar o rechazar los permisos solicitados por el personal.\nFlujo funcional:\nEl supervisor debe dirigirse al menú \"Aprobaciones\".\nEl sistema mostrará una lista de solicitudes pendientes.\nEl supervisor selecciona una solicitud y la aprueba o rechaza.",
+        "acciones": [
+            "automatizar",
+            "seleccionar",
+            "aprobar",
+            "mostrar",
+            "revisar",
+            "rechazar",
+            "dirigir él"
+        ],
+        "atributos": [
+            "aprueba",
+            "supervisor",
+            "funcional",
+            "pendiente",
+            "solicitud",
+            "menú",
+            "aprobación",
+            "negocio",
+            "personal",
+            "ausencia",
+            "permiso",
+            "parte",
+            "sistema",
+            "descripción",
+            "solicitado",
+            "lista"
+        ],
+        "entidades": [
+            [
+                "Aprobar",
+                "PER"
+            ],
+            [
+                "Objetivo de negocio",
+                "MISC"
+            ],
+            [
+                "Descripción: El supervisor",
+                "MISC"
+            ],
+            [
+                "Flujo",
+                "PER"
+            ],
+            [
+                "Aprobaciones",
+                "MISC"
+            ],
+            [
+                "El sistema mostrará",
+                "MISC"
+            ],
+            [
+                "El supervisor",
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "requisito": "Controlar horas extra\nObjetivo de negocio: Mantener un registro preciso de las horas extras trabajadas para su compensación.\nDescripción: El sistema debe registrar automáticamente las horas extras cuando el empleado sale después de su horario habitual.\nFlujo funcional:\nEl usuario registra su salida después del horario regular.\nEl sistema calcula las horas extras trabajadas y las almacena en la base de datos.",
+        "acciones": [
+            "calcular",
+            "mantener",
+            "salir",
+            "registrar"
+        ],
+        "atributos": [
+            "funcional",
+            "negocio",
+            "preciso",
+            "regular",
+            "trabajado",
+            "horario",
+            "usuario",
+            "sistema",
+            "dato",
+            "salida",
+            "empleado",
+            "extro",
+            "extra",
+            "compensación",
+            "base",
+            "hora",
+            "habitual",
+            "registro",
+            "almacena"
+        ],
+        "entidades": [
+            [
+                "Objetivo de negocio",
+                "MISC"
+            ],
+            [
+                "Mantener",
+                "PER"
+            ],
+            [
+                "Descripción: El sistema",
+                "MISC"
+            ],
+            [
+                "Flujo",
+                "PER"
+            ],
+            [
+                "El sistema calcula",
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "requisito": "Visualizar resumen semanal de asistencias\nObjetivo de negocio: Proveer una visión rápida del cumplimiento de asistencia en una semana laboral.\nDescripción: El sistema debe mostrar un resumen semanal de asistencias, indicando:\nDías trabajados\nDías de ausencia\nLlegadas tarde\nFlujo funcional:\nEl usuario debe dirigirse al menú \"Resumen Semanal\".\nEl sistema mostrará los datos para cada empleado, agrupados por semana.",
+        "acciones": [
+            "visualizar",
+            "mostrar",
+            "indicar",
+            "dirigir él"
+        ],
+        "atributos": [
+            "funcional",
+            "negocio",
+            "ausencia",
+            "trabajado",
+            "semanal",
+            "usuario",
+            "sistema",
+            "semana",
+            "rápido",
+            "resumen",
+            "día",
+            "dato",
+            "asistencia",
+            "agrupado",
+            "cumplimiento",
+            "empleado",
+            "visión",
+            "menú",
+            "laboral"
+        ],
+        "entidades": [
+            [
+                "Objetivo de negocio",
+                "MISC"
+            ],
+            [
+                "Proveer",
+                "PER"
+            ],
+            [
+                "Descripción",
+                "LOC"
+            ],
+            [
+                "Días",
+                "LOC"
+            ],
+            [
+                "Días de ausencia\nLlegadas tarde\nFlujo",
+                "ORG"
+            ],
+            [
+                "Resumen Semanal",
+                "MISC"
+            ],
+            [
+                "El sistema mostrará",
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "requisito": "Generar alertas de ausencias no justificadas\nObjetivo de negocio: Detectar y alertar sobre ausencias sin justificación en tiempo real.\nDescripción: El sistema debe enviar alertas automáticas al supervisor cuando un empleado acumule ausencias no justificadas.\nFlujo funcional:\nEl sistema monitorea las asistencias diarias.\nCuando detecta una ausencia sin permiso, genera una alerta.",
+        "acciones": [
+            "monitorear",
+            "enviar",
+            "generar",
+            "acumule",
+            "alertar",
+            "detectar"
+        ],
+        "atributos": [
+            "justificación",
+            "real",
+            "justificado",
+            "supervisor",
+            "funcional",
+            "diario",
+            "tiempo",
+            "asistencia",
+            "negocio",
+            "automático",
+            "ausencia",
+            "flujo",
+            "permiso",
+            "alerta",
+            "sistema",
+            "empleado"
+        ],
+        "entidades": [
+            [
+                "justificadas\nObjetivo",
+                "MISC"
+            ],
+            [
+                "Detectar",
+                "MISC"
+            ],
+            [
+                "Descripción",
+                "LOC"
+            ],
+            [
+                "Flujo",
+                "PER"
+            ]
+        ]
+    },
+    {
+        "requisito": "Registrar motivos de retraso\nObjetivo de negocio: Facilitar el análisis de los motivos de tardanza del personal.\nDescripción: El sistema debe permitir registrar los motivos de retraso cuando un empleado llega tarde.\nFlujo funcional:\nEl usuario registra su asistencia fuera de horario.\nEl sistema muestra una lista de motivos de tardanza para seleccionar uno.\nEl usuario selecciona el motivo y lo confirma.",
+        "acciones": [
+            "llegar",
+            "seleccionar",
+            "mostrar",
+            "confirmar",
+            "registrar",
+            "permitir",
+            "facilitar"
+        ],
+        "atributos": [
+            "funcional",
+            "horario",
+            "usuario",
+            "asistencia",
+            "negocio",
+            "personal",
+            "motivo",
+            "sistema",
+            "análisis",
+            "retraso",
+            "empleado",
+            "tardanza",
+            "lista"
+        ],
+        "entidades": [
+            [
+                "Descripción: El sistema",
+                "MISC"
+            ],
+            [
+                "Flujo",
+                "PER"
+            ],
+            [
+                "El sistema",
+                "MISC"
+            ],
+            [
+                "El usuario selecciona el motivo",
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "requisito": "Exportar reporte de asistencias a Excel\nObjetivo de negocio: Facilitar la manipulación de datos de asistencia para análisis externo.\nDescripción: El sistema debe permitir exportar los datos de asistencias a un archivo Excel.\nFlujo funcional:\nEl usuario debe dirigirse al menú \"Reportes\".\nEl sistema mostrará la vista \"EXPORTAR ASISTENCIAS\".\nEl usuario selecciona el rango de fechas y empleados, y exporta el archivo.",
+        "acciones": [
+            "exportar",
+            "seleccionar",
+            "mostrar",
+            "dirigir él",
+            "permitir",
+            "facilitar"
+        ],
+        "atributos": [
+            "funcional",
+            "vista",
+            "negocio",
+            "asistencias",
+            "flujo",
+            "manipulación",
+            "análisis",
+            "usuario",
+            "sistema",
+            "externo",
+            "dato",
+            "asistencia",
+            "rango",
+            "descripción",
+            "fecha",
+            "empleado",
+            "archivo",
+            "reporte",
+            "menú"
+        ],
+        "entidades": [
+            [
+                "Excel\nObjetivo",
+                "MISC"
+            ],
+            [
+                "Descripción",
+                "LOC"
+            ],
+            [
+                "Excel",
+                "MISC"
+            ],
+            [
+                "Flujo",
+                "PER"
+            ],
+            [
+                "Reportes",
+                "LOC"
+            ],
+            [
+                "El sistema mostrará",
+                "MISC"
+            ],
+            [
+                "ASISTENCIAS",
+                "LOC"
+            ],
+            [
+                "El usuario selecciona",
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "requisito": "Control de vacaciones\nObjetivo de negocio: Registrar y monitorear las vacaciones solicitadas y usadas por cada empleado.\nDescripción: El sistema debe gestionar las solicitudes de vacaciones, mostrando:\nDías disponibles\nDías usados\nDías restantes\nFlujo funcional:\nEl usuario debe dirigirse al menú \"Vacaciones\".\nEl sistema muestra el resumen de vacaciones para cada empleado.",
+        "acciones": [
+            "monitorear",
+            "mostrar",
+            "dirigir él",
+            "gestionar",
+            "registrar"
+        ],
+        "atributos": [
+            "resumen",
+            "día",
+            "funcional",
+            "restante",
+            "solicitud",
+            "usuario",
+            "menú",
+            "negocio",
+            "usado",
+            "disponible",
+            "sistema",
+            "empleado",
+            "solicitado",
+            "vacación"
+        ],
+        "entidades": [
+            [
+                "Objetivo de negocio",
+                "MISC"
+            ],
+            [
+                "Registrar",
+                "PER"
+            ],
+            [
+                "Descripción",
+                "LOC"
+            ],
+            [
+                "Días",
+                "LOC"
+            ],
+            [
+                "Días",
+                "LOC"
+            ],
+            [
+                "Días",
+                "LOC"
+            ],
+            [
+                "Flujo",
+                "LOC"
+            ],
+            [
+                "Vacaciones",
+                "MISC"
+            ],
+            [
+                "El sistema",
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "requisito": "Registrar llegadas tardías\nObjetivo de negocio: Monitorear las llegadas tardías para implementar políticas de control.\nDescripción: El sistema debe registrar automáticamente la llegada tardía cuando el empleado ingresa después de la hora de entrada estipulada.\nFlujo funcional:\nEl empleado registra su asistencia después de la hora límite.\nEl sistema marca la asistencia como \"tardía\" y almacena la hora de ingreso.",
+        "acciones": [
+            "monitorear",
+            "implementar",
+            "marcar",
+            "tardir",
+            "ingresar",
+            "registrar",
+            "almacena"
+        ],
+        "atributos": [
+            "funcional",
+            "ingreso",
+            "llegada",
+            "hora",
+            "entrada",
+            "asistencia",
+            "política",
+            "negocio",
+            "control",
+            "límite",
+            "estipulado",
+            "flujo",
+            "empleado",
+            "sistema",
+            "tardía",
+            "descripción",
+            "llegado"
+        ],
+        "entidades": [
+            [
+                "Monitorear",
+                "PER"
+            ],
+            [
+                "Descripción",
+                "LOC"
+            ],
+            [
+                "Flujo",
+                "PER"
+            ],
+            [
+                "El sistema marca",
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "requisito": "Generar estadísticas de puntualidad\nObjetivo de negocio: Proveer estadísticas para medir el rendimiento y cumplimiento del personal.\nDescripción: El sistema debe generar estadísticas sobre la puntualidad de los empleados, incluyendo:\nPorcentaje de puntualidad\nDías con llegada tardía\nFlujo funcional:\nEl usuario debe dirigirse al menú \"Estadísticas\".\nEl sistema mostrará gráficas con los datos de puntualidad de los empleados.",
+        "acciones": [
+            "incluir",
+            "mostrar",
+            "tardir",
+            "generar",
+            "dirigir él",
+            "medir"
+        ],
+        "atributos": [
+            "puntualidad",
+            "funcional",
+            "llegada",
+            "usuario",
+            "menú",
+            "dato",
+            "gráfico",
+            "negocio",
+            "personal",
+            "cumplimiento",
+            "sistema",
+            "estadística",
+            "empleado",
+            "rendimiento"
+        ],
+        "entidades": [
+            [
+                "Objetivo de negocio",
+                "MISC"
+            ],
+            [
+                "Proveer",
+                "PER"
+            ],
+            [
+                "Descripción: El sistema",
+                "MISC"
+            ],
+            [
+                "Porcentaje de puntualidad",
+                "MISC"
+            ],
+            [
+                "Días",
+                "LOC"
+            ],
+            [
+                "Flujo",
+                "PER"
+            ],
+            [
+                "Estadísticas",
+                "LOC"
+            ],
+            [
+                "El sistema mostrará",
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "requisito": "Ver calendario de asistencias\nObjetivo de negocio: Facilitar la visualización de las asistencias en un formato de calendario.\nDescripción: El sistema debe mostrar un calendario donde se visualicen las asistencias de los empleados por día.\nFlujo funcional:\nEl usuario debe dirigirse al menú \"Calendario\".\nEl sistema mostrará el calendario con las asistencias de los empleados, destacando días con tardanzas o ausencias.",
+        "acciones": [
+            "destacar",
+            "mostrar",
+            "visualicir",
+            "dirigir él",
+            "facilitar"
+        ],
+        "atributos": [
+            "día",
+            "funcional",
+            "ver",
+            "asistencia",
+            "usuario",
+            "menú",
+            "negocio",
+            "visualización",
+            "ausencia",
+            "sistema",
+            "calendario",
+            "empleado",
+            "tardanza",
+            "formato"
+        ],
+        "entidades": [
+            [
+                "Objetivo de negocio",
+                "MISC"
+            ],
+            [
+                "Descripción",
+                "LOC"
+            ],
+            [
+                "Flujo",
+                "PER"
+            ],
+            [
+                "Calendario",
+                "MISC"
+            ],
+            [
+                "El sistema mostrará",
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "requisito": "Configurar días feriados\nObjetivo de negocio: Evitar registros de asistencia en días no laborables.\nDescripción: El sistema debe permitir configurar los días feriados para excluirlos del conteo de asistencia.\nFlujo funcional:\nEl administrador debe dirigirse al menú \"Configuración\".\nEl sistema mostrará una opción para agregar o editar días feriados.",
+        "acciones": [
+            "editar",
+            "agregar",
+            "mostrar",
+            "excluir él",
+            "dirigir él",
+            "permitir",
+            "evitar",
+            "configurar"
+        ],
+        "atributos": [
+            "día",
+            "funcional",
+            "feriado",
+            "conteo",
+            "administrador",
+            "asistencia",
+            "menú",
+            "registro",
+            "negocio",
+            "laborable",
+            "opción",
+            "flujo",
+            "sistema"
+        ],
+        "entidades": [
+            [
+                "Configurar",
+                "ORG"
+            ],
+            [
+                "Objetivo de negocio",
+                "MISC"
+            ],
+            [
+                "días",
+                "LOC"
+            ],
+            [
+                "Descripción",
+                "LOC"
+            ],
+            [
+                "Flujo",
+                "PER"
+            ],
+            [
+                "Configuración",
+                "LOC"
+            ],
+            [
+                "El sistema mostrará",
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "requisito": "Notificación de ausencia injustificada\nObjetivo de negocio: Informar rápidamente al supervisor sobre ausencias injustificadas para tomar acciones inmediatas.\nDescripción: El sistema debe enviar una notificación al supervisor cuando un empleado no registre su asistencia sin una solicitud de permiso previa.\nFlujo funcional:\nEl sistema verifica la asistencia diaria.\nSi detecta una ausencia sin permiso, envía una notificación al supervisor.",
+        "acciones": [
+            "tomar",
+            "registrir",
+            "enviar",
+            "verificar",
+            "informar",
+            "detectar"
+        ],
+        "atributos": [
+            "supervisor",
+            "diario",
+            "funcional",
+            "asistencia",
+            "injustificada",
+            "solicitud",
+            "negocio",
+            "acción",
+            "inmediato",
+            "notificación",
+            "flujo",
+            "ausencia",
+            "previo",
+            "permiso",
+            "empleado",
+            "sistema",
+            "injustificado"
+        ],
+        "entidades": [
+            [
+                "Objetivo de negocio",
+                "MISC"
+            ],
+            [
+                "Informar",
+                "LOC"
+            ],
+            [
+                "Descripción",
+                "LOC"
+            ],
+            [
+                "Flujo",
+                "LOC"
+            ]
+        ]
+    },
+    {
+        "requisito": "Validar horas mínimas trabajadas\nObjetivo de negocio: Asegurar que los empleados cumplan con las horas mínimas establecidas por la empresa.\nDescripción: El sistema debe verificar que el empleado haya trabajado al menos el número de horas establecido y generar alertas si no se cumple.\nFlujo funcional:\nEl usuario registra su entrada y salida.\nEl sistema calcula las horas trabajadas y genera una alerta si no se cumple con el mínimo.",
+        "acciones": [
+            "calcular",
+            "cumplir",
+            "generar",
+            "registrar",
+            "verificar",
+            "validar",
+            "trabajar"
+        ],
+        "atributos": [
+            "trabajado",
+            "funcional",
+            "empresa",
+            "mínimo",
+            "hora",
+            "usuario",
+            "entrada",
+            "negocio",
+            "establecido",
+            "flujo",
+            "trabajada",
+            "salida",
+            "alerta",
+            "sistema",
+            "descripción",
+            "número",
+            "empleado"
+        ],
+        "entidades": [
+            [
+                "Objetivo de negocio",
+                "MISC"
+            ],
+            [
+                "Asegurar",
+                "LOC"
+            ],
+            [
+                "Descripción",
+                "LOC"
+            ],
+            [
+                "Flujo",
+                "PER"
+            ],
+            [
+                "El sistema calcula",
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "requisito": "Generar reporte de horas extras\nObjetivo de negocio: Controlar las horas extra trabajadas por el personal para una correcta remuneración.\nDescripción: El sistema debe generar un reporte detallado de las horas extras trabajadas por cada empleado.\nFlujo funcional:\nEl usuario debe dirigirse al menú \"Reportes\".\nEl sistema generará un reporte en formato PDF con las horas extras trabajadas.",
+        "acciones": [
+            "generar",
+            "controlar",
+            "dirigir él"
+        ],
+        "atributos": [
+            "trabajado",
+            "extra",
+            "funcional",
+            "reporte",
+            "hora",
+            "usuario",
+            "menú",
+            "negocio",
+            "correcto",
+            "personal",
+            "flujo",
+            "detallado",
+            "sistema",
+            "descripción",
+            "remuneración",
+            "empleado",
+            "formato"
+        ],
+        "entidades": [
+            [
+                "Objetivo de negocio: Controlar las horas",
+                "MISC"
+            ],
+            [
+                "Descripción",
+                "LOC"
+            ],
+            [
+                "Flujo",
+                "PER"
+            ],
+            [
+                "Reportes",
+                "LOC"
+            ],
+            [
+                "El sistema generará",
+                "MISC"
+            ],
+            [
+                "PDF",
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "requisito": "Establecer horarios de trabajo\nObjetivo de negocio: Definir los horarios laborales para cada empleado o departamento y controlar el cumplimiento.\nDescripción: El sistema debe permitir configurar los horarios de entrada y salida para cada empleado.\nFlujo funcional:\nEl administrador debe dirigirse al menú \"Configuración de horarios\".\nEl sistema mostrará una opción para definir los horarios por empleado o departamento.",
+        "acciones": [
+            "mostrar",
+            "definir",
+            "controlar",
+            "dirigir él",
+            "permitir",
+            "establecer",
+            "configurar"
+        ],
+        "atributos": [
+            "trabajo",
+            "salido",
+            "funcional",
+            "departamento",
+            "administrador",
+            "horario",
+            "entrada",
+            "menú",
+            "negocio",
+            "opción",
+            "laboral",
+            "flujo",
+            "cumplimiento",
+            "sistema",
+            "empleado"
+        ],
+        "entidades": [
+            [
+                "Objetivo de negocio",
+                "MISC"
+            ],
+            [
+                "Descripción",
+                "LOC"
+            ],
+            [
+                "Flujo",
+                "PER"
+            ],
+            [
+                "El sistema mostrará",
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "requisito": "Resumen de ausencias\nObjetivo de negocio: Facilitar la revisión rápida de ausencias acumuladas en un período determinado.\nDescripción: El sistema debe generar un resumen de ausencias por empleado, indicando:\nDías ausentes\nMotivos de ausencia\nFlujo funcional:\nEl usuario debe dirigirse al menú \"Resumen de ausencias\".\nEl sistema mostrará un listado con las ausencias por empleado.",
+        "acciones": [
+            "mostrar",
+            "indicar",
+            "generar",
+            "dirigir él",
+            "facilitar"
+        ],
+        "atributos": [
+            "resumen",
+            "día",
+            "funcional",
+            "usuario",
+            "menú",
+            "negocio",
+            "período",
+            "ausencia",
+            "acumulado",
+            "ausente",
+            "empleado",
+            "sistema",
+            "revisión",
+            "determinado",
+            "listado",
+            "rápido"
+        ],
+        "entidades": [
+            [
+                "Resumen de ausencias\nObjetivo",
+                "MISC"
+            ],
+            [
+                "Descripción",
+                "LOC"
+            ],
+            [
+                "Días",
+                "LOC"
+            ],
+            [
+                "Flujo",
+                "PER"
+            ],
+            [
+                "Resumen de ausencias",
+                "MISC"
+            ],
+            [
+                "El sistema mostrará",
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "requisito": "Control de tolerancia en la entrada\nObjetivo de negocio: Permitir un margen de tolerancia para registrar la asistencia sin marcar tardanza.\nDescripción: El sistema debe permitir configurar un período de tolerancia antes de registrar una llegada tardía.\nFlujo funcional:\nEl usuario registra su entrada dentro del período de tolerancia.\nEl sistema no marca la asistencia como tardía si está dentro del margen permitido.",
+        "acciones": [
+            "marcar",
+            "tardir",
+            "registrar",
+            "permitir",
+            "configurar"
+        ],
+        "atributos": [
+            "funcional",
+            "llegada",
+            "asistencia",
+            "entrada",
+            "usuario",
+            "permitido",
+            "negocio",
+            "período",
+            "flujo",
+            "sistema",
+            "tardía",
+            "tolerancia",
+            "margen",
+            "tardanza"
+        ],
+        "entidades": [
+            [
+                "Objetivo de negocio",
+                "MISC"
+            ],
+            [
+                "Descripción",
+                "LOC"
+            ],
+            [
+                "Flujo",
+                "PER"
+            ],
+            [
+                "El sistema",
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "requisito": "Ver detalle de una asistencia\nObjetivo de negocio: Proveer información detallada sobre una asistencia específica para análisis.\nDescripción: El sistema debe mostrar el detalle de una asistencia seleccionada, incluyendo:\nHora de entrada\nHora de salida\nEstado (puntual, tarde, ausente)\nFlujo funcional:\nEl usuario debe dirigirse al menú \"Asistencias\".\nEl sistema mostrará una lista de asistencias y el usuario seleccionará una para ver su detalle.",
+        "acciones": [
+            "seleccionar",
+            "ver",
+            "incluir",
+            "mostrar",
+            "dirigir él",
+            "proveer"
+        ],
+        "atributos": [
+            "funcional",
+            "puntual",
+            "ver",
+            "asistencia",
+            "entrada",
+            "detalle",
+            "específico",
+            "negocio",
+            "usuario",
+            "menú",
+            "información",
+            "salida",
+            "seleccionado",
+            "detallado",
+            "sistema",
+            "ausente",
+            "análisis",
+            "lista"
+        ],
+        "entidades": [
+            [
+                "Proveer",
+                "PER"
+            ],
+            [
+                "Descripción",
+                "LOC"
+            ],
+            [
+                "Hora de entrada\nHora",
+                "MISC"
+            ],
+            [
+                "Estado",
+                "LOC"
+            ],
+            [
+                "Flujo",
+                "PER"
+            ],
+            [
+                "Asistencias",
+                "LOC"
+            ],
+            [
+                "El sistema mostrará",
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "requisito": "Gestión de usuarios\nObjetivo de negocio: Administrar los permisos de acceso y roles dentro del sistema.\nDescripción: El sistema debe permitir gestionar los usuarios, asignando roles como administrador, supervisor o empleado.\nFlujo funcional:\nEl administrador debe dirigirse al menú \"Gestión de usuarios\".\nEl sistema mostrará una lista de usuarios donde se pueden editar roles y permisos.",
+        "acciones": [
+            "editar",
+            "asignar",
+            "emplear",
+            "mostrar",
+            "administrar",
+            "gestionar",
+            "dirigir él",
+            "permitir"
+        ],
+        "atributos": [
+            "supervisor",
+            "acceso",
+            "administrador",
+            "funcional",
+            "usuario",
+            "menú",
+            "negocio",
+            "flujo",
+            "permiso",
+            "rol",
+            "sistema",
+            "lista"
+        ],
+        "entidades": [
+            [
+                "Gestión",
+                "LOC"
+            ],
+            [
+                "Objetivo de negocio",
+                "MISC"
+            ],
+            [
+                "Administrar",
+                "ORG"
+            ],
+            [
+                "Descripción",
+                "LOC"
+            ],
+            [
+                "Flujo",
+                "PER"
+            ],
+            [
+                "Gestión",
+                "LOC"
+            ],
+            [
+                "El sistema mostrará",
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "requisito": "Restablecer contraseña de empleados\nObjetivo de negocio: Facilitar el restablecimiento de contraseñas de empleados cuando sea necesario.\nDescripción: El sistema debe permitir a los empleados solicitar el restablecimiento de su contraseña.\nFlujo funcional:\nEl usuario debe dirigirse al menú \"Restablecer contraseña\".\nEl sistema enviará un correo con un enlace para restablecer la contraseña.",
+        "acciones": [
+            "enviar",
+            "dirigir él",
+            "permitir",
+            "facilitar",
+            "solicitar",
+            "restablecer"
+        ],
+        "atributos": [
+            "enlace",
+            "funcional",
+            "necesario",
+            "usuario",
+            "menú",
+            "negocio",
+            "contraseña",
+            "sistema",
+            "contraseño",
+            "empleado",
+            "restablecimiento",
+            "correo"
+        ],
+        "entidades": [
+            [
+                "Objetivo de negocio",
+                "MISC"
+            ],
+            [
+                "Descripción",
+                "LOC"
+            ],
+            [
+                "Flujo",
+                "PER"
+            ],
+            [
+                "El sistema",
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "requisito": "Filtrar asistencias por departamento\nObjetivo de negocio: Permitir un análisis segmentado de la asistencia por departamento.\nDescripción: El sistema debe permitir filtrar las asistencias por departamento, mostrando datos específicos de cada uno.\nFlujo funcional:\nEl usuario debe dirigirse al menú \"Reportes\".\nEl sistema mostrará la opción de filtrar por departamento y generará el reporte correspondiente.",
+        "acciones": [
+            "mostrar",
+            "generar",
+            "filtrar",
+            "dirigir él",
+            "permitir"
+        ],
+        "atributos": [
+            "funcional",
+            "departamento",
+            "reporte",
+            "dato",
+            "asistencia",
+            "usuario",
+            "específico",
+            "menú",
+            "negocio",
+            "opción",
+            "segmentado",
+            "flujo",
+            "sistema",
+            "análisis",
+            "correspondiente"
+        ],
+        "entidades": [
+            [
+                "Descripción",
+                "LOC"
+            ],
+            [
+                "Flujo",
+                "PER"
+            ],
+            [
+                "Reportes",
+                "LOC"
+            ],
+            [
+                "El sistema mostrará",
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "requisito": "Registrar múltiples entradas y salidas\nObjetivo de negocio: Monitorear las entradas y salidas múltiples de empleados que tengan pausas en su jornada.\nDescripción: El sistema debe permitir registrar varias entradas y salidas durante el día para empleados con pausas.\nFlujo funcional:\nEl usuario registra su entrada al iniciar su jornada.\nEl sistema permite registrar salidas y entradas adicionales si el empleado toma descansos.",
+        "acciones": [
+            "monitorear",
+            "tomar",
+            "tener",
+            "iniciar",
+            "registrar",
+            "permitir"
+        ],
+        "atributos": [
+            "múltiple",
+            "día",
+            "pausa",
+            "funcional",
+            "usuario",
+            "entrada",
+            "adicional",
+            "negocio",
+            "salida",
+            "empleado",
+            "descanso",
+            "sistema",
+            "jornada"
+        ],
+        "entidades": [
+            [
+                "Objetivo de negocio",
+                "MISC"
+            ],
+            [
+                "Monitorear",
+                "PER"
+            ],
+            [
+                "Descripción: El sistema",
+                "MISC"
+            ],
+            [
+                "Flujo",
+                "PER"
+            ],
+            [
+                "El sistema",
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "requisito": "Configurar turnos de trabajo\nObjetivo de negocio: Controlar la asistencia en diferentes turnos laborales (mañana, tarde, noche).\nDescripción: El sistema debe permitir configurar turnos de trabajo para los empleados y verificar su asistencia en base a los turnos establecidos.\nFlujo funcional:\nEl administrador configura los turnos desde el menú \"Turnos de trabajo\".\nEl sistema verifica la asistencia en función de los turnos configurados.",
+        "acciones": [
+            "permitir",
+            "verificar",
+            "configurar"
+        ],
+        "atributos": [
+            "trabajo",
+            "funcional",
+            "administrador",
+            "base",
+            "asistencia",
+            "menú",
+            "negocio",
+            "establecido",
+            "laboral",
+            "flujo",
+            "configurado",
+            "función",
+            "sistema",
+            "configuro",
+            "empleado",
+            "turno"
+        ],
+        "entidades": [
+            [
+                "Objetivo de negocio",
+                "MISC"
+            ],
+            [
+                "Descripción",
+                "LOC"
+            ],
+            [
+                "Flujo",
+                "PER"
+            ],
+            [
+                "Turnos",
+                "MISC"
+            ],
+            [
+                "El sistema verifica",
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "requisito": "Visualizar asistencia en tiempo real\nObjetivo de negocio: Permitir a los supervisores ver las asistencias en tiempo real para controlar el estado de su personal.\nDescripción: El sistema debe mostrar un tablero donde se visualicen las asistencias en tiempo real de los empleados.\nFlujo funcional:\nEl usuario debe dirigirse al menú \"Asistencia en tiempo real\".\nEl sistema mostrará un tablero con los empleados que han registrado su asistencia en el día.",
+        "acciones": [
+            "ver",
+            "mostrar",
+            "visualicir",
+            "controlar",
+            "permitir",
+            "dirigir él",
+            "registrar",
+            "visualizar"
+        ],
+        "atributos": [
+            "estado",
+            "real",
+            "supervisor",
+            "funcional",
+            "día",
+            "tiempo",
+            "asistencia",
+            "usuario",
+            "menú",
+            "negocio",
+            "personal",
+            "sistema",
+            "empleado",
+            "tablero"
+        ],
+        "entidades": [
+            [
+                "Objetivo de negocio",
+                "MISC"
+            ],
+            [
+                "Descripción: El sistema",
+                "MISC"
+            ],
+            [
+                "Flujo",
+                "PER"
+            ],
+            [
+                "Asistencia",
+                "LOC"
+            ],
+            [
+                "El sistema mostrará un tablero",
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "requisito": "Generar gráficos de cumplimiento de asistencia\nObjetivo de negocio: Facilitar el análisis visual del cumplimiento de asistencia por medio de gráficos y estadísticas.\nDescripción: El sistema debe generar gráficos que muestren el cumplimiento de asistencia de cada empleado, departamento o turno.\nFlujo funcional:\nEl usuario debe dirigirse al menú \"Estadísticas\".\nEl sistema generará gráficos interactivos mostrando el cumplimiento de asistencia.",
+        "acciones": [
+            "generar",
+            "mostrar",
+            "facilitar",
+            "dirigir él"
+        ],
+        "atributos": [
+            "estadística",
+            "funcional",
+            "departamento",
+            "asistencia",
+            "usuario",
+            "menú",
+            "gráfico",
+            "negocio",
+            "medio",
+            "interactivo",
+            "flujo",
+            "visual",
+            "cumplimiento",
+            "sistema",
+            "análisis",
+            "empleado",
+            "turno"
+        ],
+        "entidades": [
+            [
+                "asistencia\nObjetivo",
+                "MISC"
+            ],
+            [
+                "Descripción",
+                "LOC"
+            ],
+            [
+                "Flujo",
+                "PER"
+            ],
+            [
+                "Estadísticas",
+                "LOC"
+            ],
+            [
+                "El sistema generará",
+                "MISC"
+            ]
+        ]
+    }
+]
